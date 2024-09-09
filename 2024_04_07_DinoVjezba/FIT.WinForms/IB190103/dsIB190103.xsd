@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsIB190103" targetNamespace="http://tempuri.org/dsIB190103.xsd" xmlns:mstns="http://tempuri.org/dsIB190103.xsd" xmlns="http://tempuri.org/dsIB190103.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsIB190103" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="dsIB190103" msprop:Generator_DataSetName="dsIB190103">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Uvjerenje" msprop:Generator_RowEvHandlerName="UvjerenjeRowChangeEventHandler" msprop:Generator_RowDeletedName="UvjerenjeRowDeleted" msprop:Generator_RowDeletingName="UvjerenjeRowDeleting" msprop:Generator_RowEvArgName="UvjerenjeRowChangeEvent" msprop:Generator_TablePropName="Uvjerenje" msprop:Generator_RowChangedName="UvjerenjeRowChanged" msprop:Generator_RowChangingName="UvjerenjeRowChanging" msprop:Generator_TableClassName="UvjerenjeDataTable" msprop:Generator_RowClassName="UvjerenjeRow" msprop:Generator_TableVarName="tableUvjerenje" msprop:Generator_UserTableName="Uvjerenje">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Indeks" msprop:Generator_ColumnPropNameInRow="Indeks" msprop:Generator_ColumnPropNameInTable="IndeksColumn" msprop:Generator_ColumnVarNameInTable="columnIndeks" msprop:Generator_UserColumnName="Indeks" type="xs:string" minOccurs="0" />
+              <xs:element name="ImePrezime" msprop:Generator_ColumnPropNameInRow="ImePrezime" msprop:Generator_ColumnPropNameInTable="ImePrezimeColumn" msprop:Generator_ColumnVarNameInTable="columnImePrezime" msprop:Generator_UserColumnName="ImePrezime" type="xs:string" minOccurs="0" />
+              <xs:element name="Svrha" msprop:Generator_ColumnPropNameInRow="Svrha" msprop:Generator_ColumnPropNameInTable="SvrhaColumn" msprop:Generator_ColumnVarNameInTable="columnSvrha" msprop:Generator_UserColumnName="Svrha" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="TipUvjerenja" msprop:Generator_ColumnPropNameInRow="TipUvjerenja" msprop:Generator_ColumnPropNameInTable="TipUvjerenjaColumn" msprop:Generator_ColumnVarNameInTable="columnTipUvjerenja" msprop:Generator_UserColumnName="TipUvjerenja" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
